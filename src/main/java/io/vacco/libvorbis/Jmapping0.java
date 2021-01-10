@@ -258,7 +258,7 @@ final class Jmapping0 extends Jvorbis_func_mapping {
     final Jvorbis_info vi = vb.vd.vi;
     final Jcodec_setup_info ci = vi.codec_setup;
     final Jprivate_state b = vb.vd.backend_state;
-    final Jvorbis_block_internal vbi = (Jvorbis_block_internal) vb.m_internal;
+    final Jvorbis_block_internal vbi = vb.m_internal;
     final int n = vb.pcmend;
     final int n2 = n >>> 1;
 

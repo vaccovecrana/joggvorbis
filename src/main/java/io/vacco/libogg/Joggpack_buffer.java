@@ -256,9 +256,9 @@ public final class Joggpack_buffer {
     /* copy trailing bits */
     if (bits != 0) {
       if (msb) {
-        oggpackB_write((int) (source[bytes] >>> (8 - bits)), bits);
+        oggpackB_write(source[bytes] >>> (8 - bits), bits);
       } else {
-        oggpack_write((int) source[bytes], bits);
+        oggpack_write(source[bytes], bits);
       }
     }
   }

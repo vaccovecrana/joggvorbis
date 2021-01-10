@@ -690,7 +690,7 @@ public final class Jvorbis_info {
 
       final Jstatic_codebook[] book_param = ci.book_param; // java
       for (int i = 0; i <= maxbook; i++) {
-        book_param[ci_books++] = (Jstatic_codebook) books[x[is]][i];
+        book_param[ci_books++] = books[x[is]][i];
       }
       ci.books = ci_books;
     }
@@ -712,7 +712,7 @@ public final class Jvorbis_info {
 
     g.copyFrom(in[(int) x[is]]);
 
-    ds = x[is] * (1. - ds) + (double) x[is + 1] * ds;
+    ds = x[is] * (1. - ds) + x[is + 1] * ds;
     is = (int) ds;
     ds -= is;
     if (ds == 0 && is > 0) {
@@ -1035,7 +1035,7 @@ public final class Jvorbis_info {
 
       r.groupbook = book_dup_or_new(ci, book_aux);
       final Jstatic_codebook[] book_param = ci.book_param; // java
-      book_param[r.groupbook] = (Jstatic_codebook) book_aux;
+      book_param[r.groupbook] = book_aux;
 
       final int[] r_booklist = r.booklist; // java
       for (int i = 0; i < partitions; i++) {
@@ -1045,7 +1045,7 @@ public final class Jvorbis_info {
           if (b != null) {
             final int bookid = book_dup_or_new(ci, b);
             r_booklist[booklist++] = bookid;
-            book_param[bookid] = (Jstatic_codebook) b;
+            book_param[bookid] = b;
           }
         }
       }
@@ -1182,7 +1182,7 @@ public final class Jvorbis_info {
 
   private final double setting_to_approx_bitrate() {
     final Jhighlevel_encode_setup hi = this.codec_setup.hi;
-    final Jve_setup_data_template setup = (Jve_setup_data_template) hi.setup;
+    final Jve_setup_data_template setup = hi.setup;
 
     final double[] r = setup.rate_mapping;
 
@@ -1264,7 +1264,6 @@ public final class Jvorbis_info {
    *
    * <p>After encoding, vorbis_info_clear() should be called.
    *
-   * @param vi Pointer to an initialized {@link Jvorbis_info} struct.
    * @return Zero for success, and negative values for failure.
    * @retval 0 Success.
    * @retval OV_EFAULT Internal logic fault; indicates a bug or heap/stack corruption.
@@ -1304,7 +1303,7 @@ public final class Jvorbis_info {
 
     /* get the appropriate setup template; matches the fetch in previous
     stages */
-    final Jve_setup_data_template setup = (Jve_setup_data_template) hi.setup;
+    final Jve_setup_data_template setup = hi.setup;
     if (setup == null) {
       return (Jcodec.OV_EINVAL);
     }
@@ -1535,7 +1534,6 @@ public final class Jvorbis_info {
    * using {@link #vorbis_info_init} from the libvorbis API. After encoding, {@link
    * #vorbis_info_clear} should be called.
    *
-   * @param vi Pointer to an initialized vorbis_info struct.
    * @param nchannels The number of channels to be encoded.
    * @param srate The sampling rate of the source audio.
    * @param quality Desired quality level, currently from -0.1 to 1.0 (lo to hi).
@@ -1578,7 +1576,6 @@ public final class Jvorbis_info {
    * vorbis_info_init() from the libvorbis API. After encoding, vorbis_info_clear() should be
    * called.
    *
-   * @param vi Pointer to an initialized vorbis_info struct.
    * @param nchannels The number of channels to be encoded.
    * @param srate The sampling rate of the source audio.
    * @param base_quality Desired quality level, currently from -0.1 to 1.0 (lo to hi).
@@ -1617,7 +1614,6 @@ public final class Jvorbis_info {
    * the encoded file. This function uses these settings to select the appropriate encoding mode and
    * set it up.
    *
-   * @param vi Pointer to an initialized vorbis_info struct.
    * @param nchannels The number of channels to be encoded.
    * @param srate The sampling rate of the source audio.
    * @param max_bitrate Desired maximum bitrate (limit). -1 indicates unset.
@@ -1689,7 +1685,6 @@ public final class Jvorbis_info {
    * the encoded file. This function uses these settings to select the appropriate encoding mode and
    * set it up.
    *
-   * @param vi Pointer to an initialized {@link Jvorbis_info} struct.
    * @param nchannels The number of channels to be encoded.
    * @param srate The sampling rate of the source audio.
    * @param max_bitrate Desired maximum bitrate (limit). -1 indicates unset.
@@ -1730,7 +1725,6 @@ public final class Jvorbis_info {
    * vorbis_encode_setup_vbr(). When used to modify settings, {@link #vorbis_encode_ctl} must be
    * called before {@link #vorbis_encode_setup_init}.
    *
-   * @param vi Pointer to an initialized vorbis_info struct.
    * @param number Specifies the desired action; See {@link Jencctlcodes} "the list of available
    *     requests".
    * @param arg Object pointing to a data structure matching the request argument.

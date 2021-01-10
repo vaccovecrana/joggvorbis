@@ -66,7 +66,7 @@ public final class Jcodec {
   static float todB(final float x) {
     int i = Float.floatToIntBits(x);
     i &= 0x7fffffff;
-    return (float) ((float) i * 7.17711438e-7f - 764.6161886f);
+    return (float) i * 7.17711438e-7f - 764.6161886f;
   }
 
   /* never used: static float todB_nn(float x) {

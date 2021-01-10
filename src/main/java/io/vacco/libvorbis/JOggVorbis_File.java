@@ -2562,7 +2562,7 @@ public final class JOggVorbis_File {
       }
     }
 
-    return ((double) time_total + (double) (this.pcm_offset - pcm_total) / this.vi[link].rate);
+    return (time_total + (double) (this.pcm_offset - pcm_total) / this.vi[link].rate);
   }
 
   /**
@@ -2871,7 +2871,6 @@ public final class JOggVorbis_File {
   }
 
   /**
-   * @param pcm_channels a float vector per channel of output
    * @param length the sample length being read by the app
    * @return Jvorbis_pcm<br>
    *     Jvorbis_pcm.samples:<br>

@@ -211,7 +211,7 @@ public final class Jogg_stream_state {
     for (i = 0; i < count; ++i) {
       System.arraycopy(
           iov[i].iov_packet, iov[i].iov_base, this.body_data, this.body_fill, iov[i].iov_len);
-      this.body_fill += (int) iov[i].iov_len;
+      this.body_fill += iov[i].iov_len;
     }
 
     /* Store lacing vals for this packet */
