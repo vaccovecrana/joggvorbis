@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import javax.sound.sampled.*;
-import spi.file.EncoderFileFormatType;
+import io.vacco.joggvorbis.spi.file.EncoderFileFormatType;
 
 /** takes a WAV file from an input file and encodes it into a Vorbis output file */
 public class Jspi_encoder {

@@ -5,10 +5,7 @@ import io.vacco.libvorbis.Jstatic_codebook;
 import io.vacco.libvorbis.Jvorbis_info_residue0;
 import io.vacco.libvorbis.Jvorbis_mapping_template;
 import io.vacco.libvorbis.Jvorbis_residue_template;
-import io.vacco.libvorbis.books.uncoupled.Jres_books_uncoupled2;
-import io.vacco.libvorbis.books.uncoupled.Jres_books_uncoupled3;
-import io.vacco.libvorbis.books.uncoupled.Jres_books_uncoupled4;
-import io.vacco.libvorbis.books.uncoupled.Jres_books_uncoupled5;
+import io.vacco.libvorbis.books.uncoupled.*;
 
 /** toplevel residue templates for 32/44.1/48kHz uncoupled */
 public final class Jresidue_44u {
@@ -75,16 +72,16 @@ public final class Jresidue_44u {
       new Jstatic_bookblock(
           new Jstatic_codebook[][] {
             {null},
-            {null, null, Jres_books_uncoupled2._44u0__p1_0},
-            {null, null, Jres_books_uncoupled2._44u0__p2_0},
-            {null, null, Jres_books_uncoupled2._44u0__p3_0},
-            {null, null, Jres_books_uncoupled2._44u0__p4_0},
-            {null, null, Jres_books_uncoupled2._44u0__p5_0},
-            {Jres_books_uncoupled2._44u0__p6_0, Jres_books_uncoupled2._44u0__p6_1},
+            {null, null, Jres_books_uncoupled2_1._44u0__p1_0},
+            {null, null, Jres_books_uncoupled2_0._44u0__p2_0},
+            {null, null, Jres_books_uncoupled2_0._44u0__p3_0},
+            {null, null, Jres_books_uncoupled2_0._44u0__p4_0},
+            {null, null, Jres_books_uncoupled2_0._44u0__p5_0},
+            {Jres_books_uncoupled2_0._44u0__p6_0, Jres_books_uncoupled2_0._44u0__p6_1},
             {
-              Jres_books_uncoupled2._44u0__p7_0,
-              Jres_books_uncoupled2._44u0__p7_1,
-              Jres_books_uncoupled2._44u0__p7_2
+              Jres_books_uncoupled2_0._44u0__p7_0,
+              Jres_books_uncoupled2_0._44u0__p7_1,
+              Jres_books_uncoupled2_0._44u0__p7_2
             }
           });
 
@@ -92,16 +89,16 @@ public final class Jresidue_44u {
       new Jstatic_bookblock(
           new Jstatic_codebook[][] {
             {null},
-            {null, null, Jres_books_uncoupled2._44u1__p1_0},
-            {null, null, Jres_books_uncoupled2._44u1__p2_0},
-            {null, null, Jres_books_uncoupled2._44u1__p3_0},
-            {null, null, Jres_books_uncoupled2._44u1__p4_0},
-            {null, null, Jres_books_uncoupled2._44u1__p5_0},
-            {Jres_books_uncoupled2._44u1__p6_0, Jres_books_uncoupled2._44u1__p6_1},
+            {null, null, Jres_books_uncoupled2_0._44u1__p1_0},
+            {null, null, Jres_books_uncoupled2_0._44u1__p2_0},
+            {null, null, Jres_books_uncoupled2_0._44u1__p3_0},
+            {null, null, Jres_books_uncoupled2_0._44u1__p4_0},
+            {null, null, Jres_books_uncoupled2_0._44u1__p5_0},
+            {Jres_books_uncoupled2_0._44u1__p6_0, Jres_books_uncoupled2_0._44u1__p6_1},
             {
-              Jres_books_uncoupled2._44u1__p7_0,
-              Jres_books_uncoupled2._44u1__p7_1,
-              Jres_books_uncoupled2._44u1__p7_2
+              Jres_books_uncoupled2_0._44u1__p7_0,
+              Jres_books_uncoupled2_0._44u1__p7_1,
+              Jres_books_uncoupled2_0._44u1__p7_2
             }
           });
 
@@ -109,7 +106,7 @@ public final class Jresidue_44u {
       new Jstatic_bookblock(
           new Jstatic_codebook[][] {
             {null},
-            {null, null, Jres_books_uncoupled2._44u2__p1_0},
+            {null, null, Jres_books_uncoupled2_0._44u2__p1_0},
             {null, null, Jres_books_uncoupled3._44u2__p2_0},
             {null, null, Jres_books_uncoupled3._44u2__p3_0},
             {null, null, Jres_books_uncoupled3._44u2__p4_0},
@@ -278,8 +275,8 @@ public final class Jresidue_44u {
         0,
         16,
         _residue_44_low_un,
-        Jres_books_uncoupled2._huff_book__44u0__short,
-        Jres_books_uncoupled2._huff_book__44u0__short,
+        Jres_books_uncoupled2_0._huff_book__44u0__short,
+        Jres_books_uncoupled2_0._huff_book__44u0__short,
         _resbook_44u_0,
         _resbook_44u_0),
     new Jvorbis_residue_template(
@@ -287,8 +284,8 @@ public final class Jresidue_44u {
         0,
         32,
         _residue_44_low_un,
-        Jres_books_uncoupled2._huff_book__44u0__long,
-        Jres_books_uncoupled2._huff_book__44u0__long,
+        Jres_books_uncoupled2_1._huff_book__44u0__long,
+        Jres_books_uncoupled2_1._huff_book__44u0__long,
         _resbook_44u_0,
         _resbook_44u_0)
   };
@@ -299,8 +296,8 @@ public final class Jresidue_44u {
         0,
         16,
         _residue_44_low_un,
-        Jres_books_uncoupled2._huff_book__44u1__short,
-        Jres_books_uncoupled2._huff_book__44u1__short,
+        Jres_books_uncoupled2_0._huff_book__44u1__short,
+        Jres_books_uncoupled2_0._huff_book__44u1__short,
         _resbook_44u_1,
         _resbook_44u_1),
     new Jvorbis_residue_template(
@@ -308,8 +305,8 @@ public final class Jresidue_44u {
         0,
         32,
         _residue_44_low_un,
-        Jres_books_uncoupled2._huff_book__44u1__long,
-        Jres_books_uncoupled2._huff_book__44u1__long,
+        Jres_books_uncoupled2_0._huff_book__44u1__long,
+        Jres_books_uncoupled2_0._huff_book__44u1__long,
         _resbook_44u_1,
         _resbook_44u_1)
   };
@@ -329,8 +326,8 @@ public final class Jresidue_44u {
         0,
         32,
         _residue_44_low_un,
-        Jres_books_uncoupled2._huff_book__44u2__long,
-        Jres_books_uncoupled2._huff_book__44u2__long,
+        Jres_books_uncoupled2_0._huff_book__44u2__long,
+        Jres_books_uncoupled2_0._huff_book__44u2__long,
         _resbook_44u_2,
         _resbook_44u_2)
   };

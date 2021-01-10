@@ -2,8 +2,8 @@ package examples;
 
 import java.io.IOException;
 import java.io.InputStream;
-import libvorbis.JOggVorbis_File;
-import libvorbis.Jvorbis_info;
+import io.vacco.libvorbis.JOggVorbis_File;
+import io.vacco.libvorbis.Jvorbis_info;
 
 /** function: illustrate simple use of chained bitstream and JOggVorbis_File */
 public final class Jchaining_example {

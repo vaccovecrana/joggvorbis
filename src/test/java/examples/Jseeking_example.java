@@ -4,9 +4,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintStream;
 import java.util.Random;
-import libvorbis.JOggVorbis_File;
-import libvorbis.Jvorbis_info;
-import libvorbis.Jvorbis_pcm;
+import io.vacco.libvorbis.JOggVorbis_File;
+import io.vacco.libvorbis.Jvorbis_info;
+import io.vacco.libvorbis.Jvorbis_pcm;
 
 /** illustrate seeking, and test it too */
 public final class Jseeking_example {

@@ -5,15 +5,15 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import libogg.Jogg_packet;
-import libogg.Jogg_page;
-import libogg.Jogg_stream_state;
-import libogg.Jogg_sync_state;
-import libvorbis.Jvorbis_block;
-import libvorbis.Jvorbis_comment;
-import libvorbis.Jvorbis_dsp_state;
-import libvorbis.Jvorbis_info;
-import libvorbis.Jvorbis_pcm;
+import io.vacco.libogg.Jogg_packet;
+import io.vacco.libogg.Jogg_page;
+import io.vacco.libogg.Jogg_stream_state;
+import io.vacco.libogg.Jogg_sync_state;
+import io.vacco.libvorbis.Jvorbis_block;
+import io.vacco.libvorbis.Jvorbis_comment;
+import io.vacco.libvorbis.Jvorbis_dsp_state;
+import io.vacco.libvorbis.Jvorbis_info;
+import io.vacco.libvorbis.Jvorbis_pcm;
 
 /** simple example decoder */
 

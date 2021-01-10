@@ -105,10 +105,10 @@ public final class Jresidue_44p51 {
             {null},
             {null, Jres_books_51_1._44p1_p1_0},
             {Jres_books_51_1._44p1_p2_0, Jres_books_51_1._44p1_p2_1, null},
-            {Jres_books_51_1._44p1_p3_0, Jres_books_51_2._44p1_p3_1, null},
-            {Jres_books_51_2._44p1_p4_0, Jres_books_51_2._44p1_p4_1, null},
-            {Jres_books_51_2._44p1_p5_0, Jres_books_51_2._44p1_p5_1, Jres_books_51_2._44p1_p4_1},
-            {Jres_books_51_2._44p1_p6_0, Jres_books_51_2._44p1_p6_1, Jres_books_51_2._44p1_p6_2},
+            {Jres_books_51_1._44p1_p3_0, Jres_books_51_3._44p1_p3_1, null},
+            {Jres_books_51_3._44p1_p4_0, Jres_books_51_3._44p1_p4_1, null},
+            {Jres_books_51_3._44p1_p5_0, Jres_books_51_3._44p1_p5_1, Jres_books_51_3._44p1_p4_1},
+            {Jres_books_51_3._44p1_p6_0, Jres_books_51_3._44p1_p6_1, Jres_books_51_3._44p1_p6_2},
           });
 
   private static final Jstatic_bookblock _resbook_44p_2 =
@@ -118,14 +118,14 @@ public final class Jresidue_44p51 {
             {null, null, Jres_books_51_2._44p2_p1_0},
             {null, Jres_books_51_2._44p2_p2_0, null},
             {Jres_books_51_2._44p2_p3_0, Jres_books_51_2._44p2_p3_1, null},
-            {Jres_books_51_2._44p2_p4_0, Jres_books_51_3._44p2_p4_1, null},
-            {Jres_books_51_3._44p2_p5_0, Jres_books_51_3._44p2_p5_1, null},
-            {Jres_books_51_3._44p2_p6_0, Jres_books_51_3._44p2_p6_1, Jres_books_51_3._44p2_p5_1},
+            {Jres_books_51_2._44p2_p4_0, Jres_books_51_3_1._44p2_p4_1, null},
+            {Jres_books_51_3_1._44p2_p5_0, Jres_books_51_3_1._44p2_p5_1, null},
+            {Jres_books_51_3_1._44p2_p6_0, Jres_books_51_3_1._44p2_p6_1, Jres_books_51_3_1._44p2_p5_1},
             {
-              Jres_books_51_3._44p2_p7_0,
-              Jres_books_51_3._44p2_p7_1,
-              Jres_books_51_3._44p2_p7_2,
-              Jres_books_51_3._44p2_p7_3
+                Jres_books_51_3_1._44p2_p7_0,
+                Jres_books_51_3_1._44p2_p7_1,
+                Jres_books_51_3_1._44p2_p7_2,
+                Jres_books_51_3_1._44p2_p7_3
             }
           });
 
@@ -133,17 +133,17 @@ public final class Jresidue_44p51 {
       new Jstatic_bookblock(
           new Jstatic_codebook[][] {
             {null},
-            {null, null, Jres_books_51_3._44p3_p1_0},
-            {null, Jres_books_51_3._44p3_p2_0, null},
-            {Jres_books_51_3._44p3_p3_0, Jres_books_51_3._44p3_p3_1, null},
-            {Jres_books_51_3._44p3_p4_0, Jres_books_51_4._44p3_p4_1, null},
-            {Jres_books_51_4._44p3_p5_0, Jres_books_51_4._44p3_p5_1, null},
-            {Jres_books_51_4._44p3_p6_0, Jres_books_51_4._44p3_p6_1, Jres_books_51_4._44p3_p5_1},
+            {null, null, Jres_books_51_3_0._44p3_p1_0},
+            {null, Jres_books_51_3_0._44p3_p2_0, null},
+            {Jres_books_51_3_0._44p3_p3_0, Jres_books_51_3_0._44p3_p3_1, null},
+            {Jres_books_51_3_0._44p3_p4_0, Jres_books_51_4_1._44p3_p4_1, null},
+            {Jres_books_51_4_1._44p3_p5_0, Jres_books_51_4_1._44p3_p5_1, null},
+            {Jres_books_51_4_1._44p3_p6_0, Jres_books_51_4_1._44p3_p6_1, Jres_books_51_4_1._44p3_p5_1},
             {
-              Jres_books_51_4._44p3_p7_0,
-              Jres_books_51_4._44p3_p7_1,
-              Jres_books_51_4._44p3_p7_2,
-              Jres_books_51_4._44p3_p7_3
+                Jres_books_51_4_1._44p3_p7_0,
+                Jres_books_51_4_1._44p3_p7_1,
+                Jres_books_51_4_1._44p3_p7_2,
+                Jres_books_51_4_1._44p3_p7_3
             }
           });
 
@@ -151,10 +151,10 @@ public final class Jresidue_44p51 {
       new Jstatic_bookblock(
           new Jstatic_codebook[][] {
             {null},
-            {null, null, Jres_books_51_4._44p4_p1_0},
-            {null, Jres_books_51_4._44p4_p2_0, null},
-            {Jres_books_51_4._44p4_p3_0, Jres_books_51_4._44p4_p3_1, null},
-            {Jres_books_51_4._44p4_p4_0, Jres_books_51_5._44p4_p4_1, null},
+            {null, null, Jres_books_51_4_0._44p4_p1_0},
+            {null, Jres_books_51_4_0._44p4_p2_0, null},
+            {Jres_books_51_4_0._44p4_p3_0, Jres_books_51_4_0._44p4_p3_1, null},
+            {Jres_books_51_4_0._44p4_p4_0, Jres_books_51_5._44p4_p4_1, null},
             {Jres_books_51_5._44p4_p5_0, Jres_books_51_5._44p4_p5_1, null},
             {Jres_books_51_5._44p4_p6_0, Jres_books_51_5._44p4_p6_1, Jres_books_51_5._44p4_p5_1},
             {
@@ -277,28 +277,28 @@ public final class Jresidue_44p51 {
       new Jstatic_bookblock(
           new Jstatic_codebook[][] {
             {Jres_books_51_1._44p1_l0_0, Jres_books_51_1._44p1_l0_1, null},
-            {Jres_books_51_1._44p1_l1_0, Jres_books_51_2._44p1_p6_1, Jres_books_51_2._44p1_p6_2},
+            {Jres_books_51_1._44p1_l1_0, Jres_books_51_3._44p1_p6_1, Jres_books_51_3._44p1_p6_2},
           });
 
   private static final Jstatic_bookblock _resbook_44p_l2 =
       new Jstatic_bookblock(
           new Jstatic_codebook[][] {
-            {Jres_books_51_2._44p2_l0_0, Jres_books_51_2._44p2_l0_1, null},
-            {Jres_books_51_2._44p2_l1_0, Jres_books_51_3._44p2_p7_2, Jres_books_51_3._44p2_p7_3},
+            {Jres_books_51_3._44p2_l0_0, Jres_books_51_3._44p2_l0_1, null},
+            {Jres_books_51_2._44p2_l1_0, Jres_books_51_3_1._44p2_p7_2, Jres_books_51_3_1._44p2_p7_3},
           });
 
   private static final Jstatic_bookblock _resbook_44p_l3 =
       new Jstatic_bookblock(
           new Jstatic_codebook[][] {
-            {Jres_books_51_3._44p3_l0_0, Jres_books_51_3._44p3_l0_1, null},
-            {Jres_books_51_3._44p3_l1_0, Jres_books_51_4._44p3_p7_2, Jres_books_51_4._44p3_p7_3},
+            {Jres_books_51_3_1._44p3_l0_0, Jres_books_51_3_1._44p3_l0_1, null},
+            {Jres_books_51_3_1._44p3_l1_0, Jres_books_51_4_1._44p3_p7_2, Jres_books_51_4_1._44p3_p7_3},
           });
 
   private static final Jstatic_bookblock _resbook_44p_l4 =
       new Jstatic_bookblock(
           new Jstatic_codebook[][] {
-            {Jres_books_51_4._44p4_l0_0, Jres_books_51_4._44p4_l0_1, null},
-            {Jres_books_51_4._44p4_l1_0, Jres_books_51_5._44p4_p7_2, Jres_books_51_5._44p4_p7_3},
+            {Jres_books_51_4_1._44p4_l0_0, Jres_books_51_4_1._44p4_l0_1, null},
+            {Jres_books_51_4_1._44p4_l1_0, Jres_books_51_5._44p4_p7_2, Jres_books_51_5._44p4_p7_3},
           });
   private static final Jstatic_bookblock _resbook_44p_l5 =
       new Jstatic_bookblock(
@@ -439,8 +439,8 @@ public final class Jresidue_44p51 {
         0,
         15,
         _residue_44p_lo,
-        Jres_books_51_2._huff_book__44p1_short,
-        Jres_books_51_2._huff_book__44p1_short,
+        Jres_books_51_3._huff_book__44p1_short,
+        Jres_books_51_3._huff_book__44p1_short,
         _resbook_44p_1,
         _resbook_44p_1),
     new Jvorbis_residue_template(
@@ -469,8 +469,8 @@ public final class Jresidue_44p51 {
         0,
         15,
         _residue_44p,
-        Jres_books_51_3._huff_book__44p2_short,
-        Jres_books_51_3._huff_book__44p2_short,
+        Jres_books_51_3_1._huff_book__44p2_short,
+        Jres_books_51_3_1._huff_book__44p2_short,
         _resbook_44p_2,
         _resbook_44p_2),
     new Jvorbis_residue_template(
@@ -499,8 +499,8 @@ public final class Jresidue_44p51 {
         0,
         15,
         _residue_44p,
-        Jres_books_51_4._huff_book__44p3_short,
-        Jres_books_51_4._huff_book__44p3_short,
+        Jres_books_51_4_1._huff_book__44p3_short,
+        Jres_books_51_4_1._huff_book__44p3_short,
         _resbook_44p_3,
         _resbook_44p_3),
     new Jvorbis_residue_template(
@@ -508,8 +508,8 @@ public final class Jresidue_44p51 {
         0,
         30,
         _residue_44p,
-        Jres_books_51_3._huff_book__44p3_long,
-        Jres_books_51_3._huff_book__44p3_long,
+        Jres_books_51_3_0._huff_book__44p3_long,
+        Jres_books_51_3_0._huff_book__44p3_long,
         _resbook_44p_3,
         _resbook_44p_3),
     new Jvorbis_residue_template(
@@ -517,8 +517,8 @@ public final class Jresidue_44p51 {
         2,
         6,
         _residue_44p_lfe,
-        Jres_books_51_3._huff_book__44p3_lfe,
-        Jres_books_51_3._huff_book__44p3_lfe,
+        Jres_books_51_3_0._huff_book__44p3_lfe,
+        Jres_books_51_3_0._huff_book__44p3_lfe,
         _resbook_44p_l3,
         _resbook_44p_l3)
   };
@@ -538,8 +538,8 @@ public final class Jresidue_44p51 {
         0,
         30,
         _residue_44p,
-        Jres_books_51_4._huff_book__44p4_long,
-        Jres_books_51_4._huff_book__44p4_long,
+        Jres_books_51_4_0._huff_book__44p4_long,
+        Jres_books_51_4_0._huff_book__44p4_long,
         _resbook_44p_4,
         _resbook_44p_4),
     new Jvorbis_residue_template(
@@ -547,8 +547,8 @@ public final class Jresidue_44p51 {
         2,
         6,
         _residue_44p_lfe,
-        Jres_books_51_4._huff_book__44p4_lfe,
-        Jres_books_51_4._huff_book__44p4_lfe,
+        Jres_books_51_4_0._huff_book__44p4_lfe,
+        Jres_books_51_4_0._huff_book__44p4_lfe,
         _resbook_44p_l4,
         _resbook_44p_l4)
   };
