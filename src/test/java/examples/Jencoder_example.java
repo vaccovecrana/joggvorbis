@@ -1,11 +1,5 @@
 package examples;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.util.Random;
 import io.vacco.libogg.Jogg_packet;
 import io.vacco.libogg.Jogg_page;
 import io.vacco.libogg.Jogg_stream_state;
@@ -14,6 +8,12 @@ import io.vacco.libvorbis.Jvorbis_comment;
 import io.vacco.libvorbis.Jvorbis_dsp_state;
 import io.vacco.libvorbis.Jvorbis_info;
 import io.vacco.libvorbis.Jvorbis_pcm;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.util.Random;
 
 /** function: simple example encoder */
 

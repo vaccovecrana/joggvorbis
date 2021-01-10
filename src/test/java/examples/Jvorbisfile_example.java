@@ -1,13 +1,13 @@
 package examples;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 import io.vacco.libvorbis.JOggVorbis_File;
 import io.vacco.libvorbis.Jcodec;
 import io.vacco.libvorbis.Jvorbis_info;
 import io.vacco.libvorbis.Jvorbis_pcm;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 
 /** simple example decoder using JOggVorbis_File */
 

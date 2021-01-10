@@ -64,9 +64,9 @@ public final class Jresidue_44 {
             {Jres_books_stereo4_4._44cn1_s_p6_0, Jres_books_stereo4_4._44cn1_s_p6_1},
             {Jres_books_stereo4_4._44cn1_s_p7_0, Jres_books_stereo4_4._44cn1_s_p7_1},
             {
-                Jres_books_stereo4_4._44cn1_s_p8_0,
-                Jres_books_stereo4_4._44cn1_s_p8_1,
-                Jres_books_stereo4_4._44cn1_s_p8_2
+              Jres_books_stereo4_4._44cn1_s_p8_0,
+              Jres_books_stereo4_4._44cn1_s_p8_1,
+              Jres_books_stereo4_4._44cn1_s_p8_2
             }
           });
 
@@ -100,9 +100,9 @@ public final class Jresidue_44 {
             {Jres_books_stereo3_0._44c0_s_p6_0, Jres_books_stereo3_0._44c0_s_p6_1},
             {Jres_books_stereo3_0._44c0_s_p7_0, Jres_books_stereo3_0._44c0_s_p7_1},
             {
-                Jres_books_stereo4_3._44c0_s_p8_0,
-                Jres_books_stereo4_3._44c0_s_p8_1,
-                Jres_books_stereo4_3._44c0_s_p8_2
+              Jres_books_stereo4_3._44c0_s_p8_0,
+              Jres_books_stereo4_3._44c0_s_p8_1,
+              Jres_books_stereo4_3._44c0_s_p8_2
             }
           });
 
@@ -118,9 +118,9 @@ public final class Jresidue_44 {
             {Jres_books_stereo4_3._44c0_sm_p6_0, Jres_books_stereo4_3._44c0_sm_p6_1},
             {Jres_books_stereo4_3._44c0_sm_p7_0, Jres_books_stereo4_3._44c0_sm_p7_1},
             {
-                Jres_books_stereo4_2._44c0_sm_p8_0,
-                Jres_books_stereo4_2._44c0_sm_p8_1,
-                Jres_books_stereo4_2._44c0_sm_p8_2
+              Jres_books_stereo4_2._44c0_sm_p8_0,
+              Jres_books_stereo4_2._44c0_sm_p8_1,
+              Jres_books_stereo4_2._44c0_sm_p8_2
             }
           });
 
@@ -136,9 +136,9 @@ public final class Jresidue_44 {
             {Jres_books_stereo4_1._44c1_s_p6_0, Jres_books_stereo4_1._44c1_s_p6_1},
             {Jres_books_stereo4_1._44c1_s_p7_0, Jres_books_stereo4_1._44c1_s_p7_1},
             {
-                Jres_books_stereo4_1._44c1_s_p8_0,
-                Jres_books_stereo4_1._44c1_s_p8_1,
-                Jres_books_stereo4_1._44c1_s_p8_2
+              Jres_books_stereo4_1._44c1_s_p8_0,
+              Jres_books_stereo4_1._44c1_s_p8_1,
+              Jres_books_stereo4_1._44c1_s_p8_2
             }
           });
 
@@ -154,9 +154,9 @@ public final class Jresidue_44 {
             {Jres_books_stereo4_1._44c1_sm_p6_0, Jres_books_stereo4_1._44c1_sm_p6_1},
             {Jres_books_stereo4_4._44c1_sm_p7_0, Jres_books_stereo4_4._44c1_sm_p7_1},
             {
-                Jres_books_stereo4_4._44c1_sm_p8_0,
-                Jres_books_stereo4_4._44c1_sm_p8_1,
-                Jres_books_stereo4_4._44c1_sm_p8_2
+              Jres_books_stereo4_4._44c1_sm_p8_0,
+              Jres_books_stereo4_4._44c1_sm_p8_1,
+              Jres_books_stereo4_4._44c1_sm_p8_2
             }
           });
 
@@ -173,9 +173,9 @@ public final class Jresidue_44 {
             {Jres_books_stereo2_3._44c2_s_p7_0, Jres_books_stereo2_3._44c2_s_p7_1},
             {Jres_books_stereo2_3._44c2_s_p8_0, Jres_books_stereo2_3._44c2_s_p8_1},
             {
-                Jres_books_stereo2_3._44c2_s_p9_0,
-                Jres_books_stereo2_3._44c2_s_p9_1,
-                Jres_books_stereo2_3._44c2_s_p9_2
+              Jres_books_stereo2_3._44c2_s_p9_0,
+              Jres_books_stereo2_3._44c2_s_p9_1,
+              Jres_books_stereo2_3._44c2_s_p9_2
             }
           });
 
@@ -192,9 +192,9 @@ public final class Jresidue_44 {
             {Jres_books_stereo2_2._44c3_s_p7_0, Jres_books_stereo2_2._44c3_s_p7_1},
             {Jres_books_stereo2_2._44c3_s_p8_0, Jres_books_stereo2_1._44c3_s_p8_1},
             {
-                Jres_books_stereo2_1._44c3_s_p9_0,
-                Jres_books_stereo2_1._44c3_s_p9_1,
-                Jres_books_stereo2_1._44c3_s_p9_2
+              Jres_books_stereo2_1._44c3_s_p9_0,
+              Jres_books_stereo2_1._44c3_s_p9_1,
+              Jres_books_stereo2_1._44c3_s_p9_2
             }
           });
 
@@ -211,9 +211,9 @@ public final class Jresidue_44 {
             {Jres_books_stereo2_1._44c4_s_p7_0, Jres_books_stereo2_1._44c4_s_p7_1},
             {Jres_books_stereo2_1._44c4_s_p8_0, Jres_books_stereo2_5._44c4_s_p8_1},
             {
-                Jres_books_stereo2_5._44c4_s_p9_0,
-                Jres_books_stereo2_5._44c4_s_p9_1,
-                Jres_books_stereo2_5._44c4_s_p9_2
+              Jres_books_stereo2_5._44c4_s_p9_0,
+              Jres_books_stereo2_5._44c4_s_p9_1,
+              Jres_books_stereo2_5._44c4_s_p9_2
             }
           });
 
@@ -230,9 +230,9 @@ public final class Jresidue_44 {
             {Jres_books_stereo2_4._44c5_s_p7_0, Jres_books_stereo2_4._44c5_s_p7_1},
             {Jres_books_stereo2_4._44c5_s_p8_0, Jres_books_stereo2_4._44c5_s_p8_1},
             {
-                Jres_books_stereo2_4._44c5_s_p9_0,
-                Jres_books_stereo2_4._44c5_s_p9_1,
-                Jres_books_stereo2_4._44c5_s_p9_2
+              Jres_books_stereo2_4._44c5_s_p9_0,
+              Jres_books_stereo2_4._44c5_s_p9_1,
+              Jres_books_stereo2_4._44c5_s_p9_2
             }
           });
 
@@ -251,7 +251,7 @@ public final class Jresidue_44 {
             {
               Jres_books_stereo2_0._44c6_s_p9_0,
               Jres_books_stereo2_0._44c6_s_p9_1,
-                Jres_books_stereo3_1._44c6_s_p9_2
+              Jres_books_stereo3_1._44c6_s_p9_2
             }
           });
 
@@ -268,9 +268,9 @@ public final class Jresidue_44 {
             {Jres_books_stereo3_1._44c7_s_p7_0, Jres_books_stereo3_1._44c7_s_p7_1},
             {Jres_books_stereo3_1._44c7_s_p8_0, Jres_books_stereo3_1._44c7_s_p8_1},
             {
-                Jres_books_stereo3_1._44c7_s_p9_0,
-                Jres_books_stereo3_1._44c7_s_p9_1,
-                Jres_books_stereo3_1._44c7_s_p9_2
+              Jres_books_stereo3_1._44c7_s_p9_0,
+              Jres_books_stereo3_1._44c7_s_p9_1,
+              Jres_books_stereo3_1._44c7_s_p9_2
             }
           });
 
@@ -287,9 +287,9 @@ public final class Jresidue_44 {
             {Jres_books_stereo3_1._44c8_s_p7_0, Jres_books_stereo3_1._44c8_s_p7_1},
             {Jres_books_stereo3_1._44c8_s_p8_0, Jres_books_stereo3_1._44c8_s_p8_1},
             {
-                Jres_books_stereo3_1._44c8_s_p9_0,
-                Jres_books_stereo3_1._44c8_s_p9_1,
-                Jres_books_stereo3_1._44c8_s_p9_2
+              Jres_books_stereo3_1._44c8_s_p9_0,
+              Jres_books_stereo3_1._44c8_s_p9_1,
+              Jres_books_stereo3_1._44c8_s_p9_2
             }
           });
 
@@ -306,9 +306,9 @@ public final class Jresidue_44 {
             {Jres_books_stereo3_2._44c9_s_p7_0, Jres_books_stereo3_2._44c9_s_p7_1},
             {Jres_books_stereo3_2._44c9_s_p8_0, Jres_books_stereo3_2._44c9_s_p8_1},
             {
-                Jres_books_stereo3_2._44c9_s_p9_0,
-                Jres_books_stereo3_2._44c9_s_p9_1,
-                Jres_books_stereo3_2._44c9_s_p9_2
+              Jres_books_stereo3_2._44c9_s_p9_0,
+              Jres_books_stereo3_2._44c9_s_p9_1,
+              Jres_books_stereo3_2._44c9_s_p9_2
             }
           });
 

@@ -1,11 +1,11 @@
 package examples;
 
+import io.vacco.joggvorbis.spi.file.EncoderFileFormatType;
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import javax.sound.sampled.*;
-import io.vacco.joggvorbis.spi.file.EncoderFileFormatType;
 
 /** takes a WAV file from an input file and encodes it into a Vorbis output file */
 public class Jspi_encoder {

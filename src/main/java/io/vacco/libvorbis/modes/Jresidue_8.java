@@ -26,9 +26,9 @@ public final class Jresidue_8 {
             {Jres_books_stereo1_6._8c0_s_p7_0, Jres_books_stereo1_6._8c0_s_p7_1},
             {Jres_books_stereo1_6._8c0_s_p8_0, Jres_books_stereo1_5._8c0_s_p8_1},
             {
-                Jres_books_stereo1_5._8c0_s_p9_0,
-                Jres_books_stereo1_5._8c0_s_p9_1,
-                Jres_books_stereo1_5._8c0_s_p9_2
+              Jres_books_stereo1_5._8c0_s_p9_0,
+              Jres_books_stereo1_5._8c0_s_p9_1,
+              Jres_books_stereo1_5._8c0_s_p9_2
             }
           });
 
@@ -91,9 +91,9 @@ public final class Jresidue_8 {
             {null, null, Jres_books_uncoupled2_1._8u0__p5_0},
             {Jres_books_uncoupled2_1._8u0__p6_0, Jres_books_uncoupled2_1._8u0__p6_1},
             {
-								Jres_books_uncoupled2_1._8u0__p7_0,
-								Jres_books_uncoupled2_1._8u0__p7_1,
-								Jres_books_uncoupled2_1._8u0__p7_2
+              Jres_books_uncoupled2_1._8u0__p7_0,
+              Jres_books_uncoupled2_1._8u0__p7_1,
+              Jres_books_uncoupled2_1._8u0__p7_2
             }
           });
 
@@ -110,9 +110,9 @@ public final class Jresidue_8 {
             {Jres_books_uncoupled2_1._8u1__p7_0, Jres_books_uncoupled2_1._8u1__p7_1},
             {Jres_books_uncoupled2_1._8u1__p8_0, Jres_books_uncoupled2_1._8u1__p8_1},
             {
-								Jres_books_uncoupled2_1._8u1__p9_0,
-								Jres_books_uncoupled2_1._8u1__p9_1,
-								Jres_books_uncoupled2_1._8u1__p9_2
+              Jres_books_uncoupled2_1._8u1__p9_0,
+              Jres_books_uncoupled2_1._8u1__p9_1,
+              Jres_books_uncoupled2_1._8u1__p9_2
             }
           });
 
@@ -122,8 +122,8 @@ public final class Jresidue_8 {
         0,
         32,
         Jresidue_44u._residue_44_low_un,
-				Jres_books_uncoupled2_1._huff_book__8u0__single,
-				Jres_books_uncoupled2_1._huff_book__8u0__single,
+        Jres_books_uncoupled2_1._huff_book__8u0__single,
+        Jres_books_uncoupled2_1._huff_book__8u0__single,
         _resbook_8u_0,
         _resbook_8u_0),
   };
@@ -134,8 +134,8 @@ public final class Jresidue_8 {
         0,
         32,
         Jresidue_44u._residue_44_mid_un,
-				Jres_books_uncoupled2_1._huff_book__8u1__single,
-				Jres_books_uncoupled2_1._huff_book__8u1__single,
+        Jres_books_uncoupled2_1._huff_book__8u1__single,
+        Jres_books_uncoupled2_1._huff_book__8u1__single,
         _resbook_8u_1,
         _resbook_8u_1),
   };
