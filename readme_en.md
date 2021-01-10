@@ -2,6 +2,8 @@
 
 Java versions of the Ogg Vorbis libraries.
 
+Forked and adapted from https://github.com/ggrandes-clones/joggvorbis
+
 ## Conformity
 
 - `libogg-1.3.3`
