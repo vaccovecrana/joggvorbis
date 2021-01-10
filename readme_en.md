@@ -2,7 +2,7 @@
 
 Java versions of the Ogg Vorbis libraries.
 
-Forked and adapted from https://github.com/ggrandes-clones/joggvorbis
+Forked and adapted from http://dmilvdv.narod.ru/Apps/oggvorbis.html
 
 ## Conformity
 
