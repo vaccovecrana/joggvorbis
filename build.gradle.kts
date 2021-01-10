@@ -4,6 +4,7 @@ group = "io.vacco.joggvorbis"
 version = "1.3.0"
 
 configure<io.vacco.common.CbPluginProfileExtension> {
+  addJ8Spec()
   addGoogleJavaFormat()
   addClasspathHell()
   setPublishingUrlTransform { repo -> "${repo.url}/${project.name}" }

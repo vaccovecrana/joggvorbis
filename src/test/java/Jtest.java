@@ -1,4 +1,5 @@
 import java.io.File;
+import org.junit.Test;
 
 public class Jtest {
   private static final int DATA_LEN = 2048;
@@ -26,7 +27,8 @@ public class Jtest {
   }
 
   @SuppressWarnings("boxing")
-  public static void main(final String[] args) {
+  @Test
+  public void channelTest() {
     /* Do safest and most used sample rates first. */
     final int sample_rates[] = {44100, 48000, 32000, 22050, 16000, 96000};
     int errors = 0;
