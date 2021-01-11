@@ -11,6 +11,14 @@ Forked and adapted from http://dmilvdv.narod.ru/Apps/oggvorbis.html
 
 Includes tests, examples, java SPI.
 
+[![Download](https://api.bintray.com/packages/vaccovecrana/vacco-oss/joggvorbis/images/download.svg) ](https://bintray.com/vaccovecrana/vacco-oss/joggvorbis/_latestVersion)
+
+```groovy
+dependencies {
+  compile 'io.vacco.joggvorbis:joggvorbis:<VERSION>'
+}
+```
+
 Source file labels:
 
 - `FIXME` - Suspicious places in the C source code.
