@@ -1,2 +1,2 @@
 # for the Ogg Vorbis codec
-spi.convert.OggVorbisFormatConversionProvider
+io.vacco.joggvorbis.spi.convert.OggVorbisFormatConversionProvider

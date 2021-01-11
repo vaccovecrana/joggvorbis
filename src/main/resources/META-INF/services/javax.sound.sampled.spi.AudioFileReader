@@ -1,2 +1,2 @@
 # for the Ogg Vorbis decoder
-spi.file.OggVorbisAudioFileReader
+io.vacco.joggvorbis.spi.file.OggVorbisAudioFileReader

@@ -1,2 +1,2 @@
 # for the Ogg Vorbis encoder
-spi.file.OggVorbisAudioFileWriter
+io.vacco.joggvorbis.spi.file.OggVorbisAudioFileWriter
