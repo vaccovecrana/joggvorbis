@@ -1,12 +1,19 @@
-plugins { id("io.vacco.common-build") version "0.5.3" }
+plugins { id("io.vacco.oss.gitflow") version "0.9.8" }
 
 group = "io.vacco.joggvorbis"
 version = "1.3.1"
 
-configure<io.vacco.common.CbPluginProfileExtension> {
+configure<io.vacco.oss.gitflow.GsPluginProfileExtension> {
   addJ8Spec()
-  addGoogleJavaFormat()
   addClasspathHell()
-  setPublishingUrlTransform { repo -> "${repo.url}/${project.name}" }
-  sharedLibrary()
+  sharedLibrary(true, false)
+}
+
+configure<io.vacco.cphell.ChPluginExtension> {
+  resourceExclusions.add("module-info.class")
+}
+
+configure<JavaPluginExtension> {
+  sourceCompatibility = JavaVersion.VERSION_1_8
+  targetCompatibility = JavaVersion.VERSION_1_8
 }
