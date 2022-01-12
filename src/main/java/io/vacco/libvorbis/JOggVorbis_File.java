@@ -1742,7 +1742,7 @@ public final class JOggVorbis_File {
   }
 
   /**
-   * @return: total seconds of content if i==-1 seconds in that logical bitstream for i==0 to n
+   * @return total seconds of content if i==-1 seconds in that logical bitstream for i==0 to n
    *     OV_EINVAL if the stream is not seekable (we can't know the length) or only partially open
    */
   public final double ov_time_total(int i) {
@@ -2644,7 +2644,7 @@ public final class JOggVorbis_File {
    * @return <code>Jvorbis_pcm</code><br>
    *     NULL) stream not opened<br>
    *     <code>Jvorbis_pcm.samples</code>:<br>
-   *     <0) error/hole in data (OV_HOLE), partial open (OV_EINVAL)<br>
+   *     &lt;0) error/hole in data (OV_HOLE), partial open (OV_EINVAL)<br>
    *     0) EOF<br>
    *     n) number of bytes of PCM actually returned. The below works on a packet-by-packet basis,
    *     so the return length is not related to the 'length' passed in, just guaranteed to fit.
@@ -2852,7 +2852,7 @@ public final class JOggVorbis_File {
    * @return <code>Jvorbis_pcm</code><br>
    *     NULL) stream not opened<br>
    *     <code>Jvorbis_pcm.samples</code>:<br>
-   *     <0) error/hole in data (OV_HOLE), partial open (OV_EINVAL)<br>
+   *     &lt;0) error/hole in data (OV_HOLE), partial open (OV_EINVAL)<br>
    *     0) EOF<br>
    *     n) number of bytes of PCM actually returned. The below works on a packet-by-packet basis,
    *     so the return length is not related to the 'length' passed in, just guaranteed to fit.
@@ -2874,7 +2874,7 @@ public final class JOggVorbis_File {
    * @param length the sample length being read by the app
    * @return Jvorbis_pcm<br>
    *     Jvorbis_pcm.samples:<br>
-   *     <0) error/hole in data (OV_HOLE), partial open (OV_EINVAL)<br>
+   *     &lt;0) error/hole in data (OV_HOLE), partial open (OV_EINVAL)<br>
    *     0) EOF<br>
    *     n) number of samples of PCM actually returned. The below works on a packet-by-packet basis,
    *     so the return length is not related to the 'length' passed in, just guaranteed to fit.

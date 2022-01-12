@@ -1265,9 +1265,9 @@ public final class Jvorbis_info {
    * <p>After encoding, vorbis_info_clear() should be called.
    *
    * @return Zero for success, and negative values for failure.
-   * @retval 0 Success.
-   * @retval OV_EFAULT Internal logic fault; indicates a bug or heap/stack corruption.
-   * @retval OV_EINVAL Attempt to use vorbis_encode_setup_init() without first calling one of
+   *         0 Success.
+   *         OV_EFAULT Internal logic fault; indicates a bug or heap/stack corruption.
+   *         OV_EINVAL Attempt to use vorbis_encode_setup_init() without first calling one of
    *     vorbis_encode_setup_managed() or vorbis_encode_setup_vbr() to initialize the high-level
    *     encoding setup
    */
@@ -1538,10 +1538,10 @@ public final class Jvorbis_info {
    * @param srate The sampling rate of the source audio.
    * @param quality Desired quality level, currently from -0.1 to 1.0 (lo to hi).
    * @return Zero for success, and negative values for failure.
-   * @retval 0 Success
-   * @retval OV_EFAULT Internal logic fault; indicates a bug or heap/stack corruption.
-   * @retval OV_EINVAL Invalid setup request, eg, out of range argument.
-   * @retval OV_EIMPL Unimplemented mode; unable to comply with quality level request.
+   *         0 Success
+   *         OV_EFAULT Internal logic fault; indicates a bug or heap/stack corruption.
+   *         OV_EINVAL Invalid setup request, eg, out of range argument.
+   *         OV_EIMPL Unimplemented mode; unable to comply with quality level request.
    */
   public final int vorbis_encode_setup_vbr(final int nchannels, final int srate, float quality) {
     if (srate <= 0) {
@@ -1580,10 +1580,10 @@ public final class Jvorbis_info {
    * @param srate The sampling rate of the source audio.
    * @param base_quality Desired quality level, currently from -0.1 to 1.0 (lo to hi).
    * @return Zero for success, or a negative number for failure.
-   * @retval 0 Success
-   * @retval OV_EFAULT Internal logic fault; indicates a bug or heap/stack corruption.
-   * @retval OV_EINVAL Invalid setup request, eg, out of range argument.
-   * @retval OV_EIMPL Unimplemented mode; unable to comply with quality level request.
+   *         0 Success
+   *         OV_EFAULT Internal logic fault; indicates a bug or heap/stack corruption.
+   *         OV_EINVAL Invalid setup request, eg, out of range argument.
+   *         OV_EIMPL Unimplemented mode; unable to comply with quality level request.
    */
   public final int vorbis_encode_init_vbr(
       final int nchannels, final int srate, final float base_quality /* 0. to 1. */) {
@@ -1620,10 +1620,10 @@ public final class Jvorbis_info {
    * @param nominal_bitrate Desired average, or central, bitrate. -1 indicates unset.
    * @param min_bitrate Desired minimum bitrate. -1 indicates unset.
    * @return Zero for success, and negative for failure.
-   * @retval 0 Success
-   * @retval OV_EFAULT Internal logic fault; indicates a bug or heap/stack corruption.
-   * @retval OV_EINVAL Invalid setup request, eg, out of range argument.
-   * @retval OV_EIMPL Unimplemented mode; unable to comply with bitrate request.
+   *         0 Success
+   *         OV_EFAULT Internal logic fault; indicates a bug or heap/stack corruption.
+   *         OV_EINVAL Invalid setup request, eg, out of range argument.
+   *         OV_EIMPL Unimplemented mode; unable to comply with bitrate request.
    */
   public final int vorbis_encode_setup_managed(
       final int nchannels,
@@ -1691,10 +1691,10 @@ public final class Jvorbis_info {
    * @param nominal_bitrate Desired average, or central, bitrate. -1 indicates unset.
    * @param min_bitrate Desired minimum bitrate. -1 indicates unset.
    * @return Zero for success, and negative values for failure.
-   * @retval 0 Success.
-   * @retval OV_EFAULT Internal logic fault; indicates a bug or heap/stack corruption.
-   * @retval OV_EINVAL Invalid setup request, eg, out of range argument.
-   * @retval OV_EIMPL Unimplemented mode; unable to comply with bitrate request.
+   *         0 Success.
+   *         OV_EFAULT Internal logic fault; indicates a bug or heap/stack corruption.
+   *         OV_EINVAL Invalid setup request, eg, out of range argument.
+   *         OV_EIMPL Unimplemented mode; unable to comply with bitrate request.
    */
   public final int vorbis_encode_init(
       final int nchannels,
@@ -1728,11 +1728,11 @@ public final class Jvorbis_info {
    * @param number Specifies the desired action; See {@link Jencctlcodes} "the list of available
    *     requests".
    * @param arg Object pointing to a data structure matching the request argument.
-   * @retval 0 Success. Any further return information (such as the result of a query) is placed
+   *         0 Success. Any further return information (such as the result of a query) is placed
    *     into the storage pointed to by Object.
-   * @retval OV_EINVAL Invalid argument, or an attempt to modify a setting after calling
+   *         OV_EINVAL Invalid argument, or an attempt to modify a setting after calling
    *     vorbis_encode_setup_init().
-   * @retval OV_EIMPL Unimplemented or unknown request
+   *         OV_EIMPL Unimplemented or unknown request
    */
   @SuppressWarnings("deprecation")
   public final int vorbis_encode_ctl(final int number, final Object arg) {

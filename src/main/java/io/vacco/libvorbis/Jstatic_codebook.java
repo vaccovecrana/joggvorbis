@@ -6,7 +6,7 @@ import io.vacco.libogg.Joggpack_buffer;
  * This structure encapsulates huffman and VQ style encoding books; it doesn't do anything specific
  * to either.
  *
- * <p>valuelist/quantlist are nonNULL (and q_* significant) only if there's entry->value mapping to
+ * <p>valuelist/quantlist are nonNULL (and q_* significant) only if there's entry -&gt; value mapping to
  * be done.
  *
  * <p>If encode-side mapping must be done (and thus the entry needs to be hunted), the auxiliary

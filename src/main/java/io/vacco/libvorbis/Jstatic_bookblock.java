@@ -2,7 +2,7 @@ package io.vacco.libvorbis;
 
 /**
  * careful with this; it's using static array sizing to make managing all the modes a little less
- * annoying. If we use a residue backend with > 12 partition types, or a different division of
+ * annoying. If we use a residue backend with &gt; 12 partition types, or a different division of
  * iteration, this needs to be updated.
  */
 public final class Jstatic_bookblock {

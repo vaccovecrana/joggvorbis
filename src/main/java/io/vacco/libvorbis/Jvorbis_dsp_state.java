@@ -585,7 +585,7 @@ public final class Jvorbis_dsp_state {
     }
   }
 
-  /** call with val<=0 to set eof */
+  /** call with val &lt;= 0 to set eof */
   public final int vorbis_analysis_wrote(final int vals) {
     final Jvorbis_info vinfo = this.vi;
     final Jcodec_setup_info ci = vinfo.codec_setup;

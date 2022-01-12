@@ -12,7 +12,7 @@ public final class Jencctlcodes {
   /**
    * Query the current encoder bitrate management setting.
    *
-   * <p>Argument: <tt>struct ovectl_ratemanage2_arg *</tt>
+   * <p>Argument: struct ovectl_ratemanage2_arg *
    *
    * <p>Used to query the current encoder bitrate management setting. Also used to initialize fields
    * of an ovectl_ratemanage2_arg structure for use with {@link #OV_ECTL_RATEMANAGE2_SET}.
@@ -22,7 +22,7 @@ public final class Jencctlcodes {
   /**
    * Set the current encoder bitrate management settings.
    *
-   * <p>Argument: <tt>Jovectl_ratemanage2_arg</tt>
+   * <p>Argument: Jovectl_ratemanage2_arg
    *
    * <p>Used to set the current encoder bitrate management settings to the values listed in the
    * ovectl_ratemanage2_arg. Passing a NULL pointer will disable bitrate management.
@@ -32,7 +32,7 @@ public final class Jencctlcodes {
   /**
    * Returns the current encoder hard-lowpass setting (kHz) in the double pointed to by arg.
    *
-   * <p>Argument: <tt>double[]</tt>
+   * <p>Argument: double[]
    */
   public static final int OV_ECTL_LOWPASS_GET = 0x20;
 
@@ -40,21 +40,21 @@ public final class Jencctlcodes {
    * Sets the encoder hard-lowpass to the value (kHz) pointed to by arg. Valid lowpass settings
    * range from 2 to 99.
    *
-   * <p>Argument: <tt>double[]</tt>
+   * <p>Argument: double[]
    */
   public static final int OV_ECTL_LOWPASS_SET = 0x21;
 
   /**
    * Returns the current encoder impulse block setting in the double pointed to by arg.
    *
-   * <p>Argument: <tt>double[]</tt>
+   * <p>Argument: double[]
    */
   public static final int OV_ECTL_IBLOCK_GET = 0x30;
 
   /**
    * Sets the impulse block bias to the the value pointed to by arg.
    *
-   * <p>Argument: <tt>double[]</tt>
+   * <p>Argument: double[]
    *
    * <p>Valid range is -15.0 to 0.0 [default]. A negative impulse block bias will direct to encoder
    * to use more bits when incoding short blocks that contain strong impulses, thus improving the
@@ -65,14 +65,14 @@ public final class Jencctlcodes {
   /**
    * Returns the current encoder coupling setting in the int pointed to by arg.
    *
-   * <p>Argument: <tt>int[]</tt>
+   * <p>Argument: int[]
    */
   public static final int OV_ECTL_COUPLING_GET = 0x40;
 
   /**
    * Enables/disables channel coupling in multichannel encoding according to arg.
    *
-   * <p>Argument: <tt>int[]</tt>
+   * <p>Argument: int[]
    *
    * <p>Zero disables channel coupling for multichannel inputs, nonzer enables channel coupling.
    * Setting has no effect on monophonic encoding or multichannel counts that do not offer coupling.
@@ -91,7 +91,7 @@ public final class Jencctlcodes {
    * <p>
    *
    * @deprecated Please use {@link #OV_ECTL_RATEMANAGE2_GET} instead.
-   *     <p>Argument: <tt>Jovectl_ratemanage_arg</tt>
+   *     <p>Argument: Jovectl_ratemanage_arg
    */
   @Deprecated public static final int OV_ECTL_RATEMANAGE_GET = 0x10;
 
@@ -104,7 +104,7 @@ public final class Jencctlcodes {
    * <p>
    *
    * @deprecated Please use {@link #OV_ECTL_RATEMANAGE2_SET} instead.
-   *     <p>Argument: <tt>Jovectl_ratemanage_arg</tt>
+   *     <p>Argument: Jovectl_ratemanage_arg
    */
   @Deprecated public static final int OV_ECTL_RATEMANAGE_SET = 0x11;
 
@@ -117,7 +117,7 @@ public final class Jencctlcodes {
    * <p>
    *
    * @deprecated Please use {@link #OV_ECTL_RATEMANAGE2_SET} instead.
-   *     <p>Argument: <tt>Jovectl_ratemanage_arg</tt>
+   *     <p>Argument: Jovectl_ratemanage_arg
    */
   @Deprecated public static final int OV_ECTL_RATEMANAGE_AVG = 0x12;
 
@@ -130,7 +130,7 @@ public final class Jencctlcodes {
    * <p>
    *
    * @deprecated Please use {@link #OV_ECTL_RATEMANAGE2_SET} instead.
-   *     <p>Argument: <tt>Jovectl_ratemanage_arg</tt>
+   *     <p>Argument: Jovectl_ratemanage_arg
    */
   @Deprecated public static final int OV_ECTL_RATEMANAGE_HARD = 0x13;
 }

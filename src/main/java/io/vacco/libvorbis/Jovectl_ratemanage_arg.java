@@ -12,7 +12,7 @@ package io.vacco.libvorbis;
  */
 @Deprecated
 public final class Jovectl_ratemanage_arg {
-  /** < nonzero if bitrate management is active */
+  /** &lt; nonzero if bitrate management is active */
   public boolean management_active = false;
   /**
    * hard lower limit (in kilobits per second) below which the stream bitrate will never be allowed

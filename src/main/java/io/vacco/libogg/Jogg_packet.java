@@ -7,9 +7,9 @@ package io.vacco.libogg;
  * <p>Changes from C to Java:
  *
  * <p><code>byte data = packet_base[packet]</code><br>
- * <code>int data = ((int)packet_base[packet]) & 0xff</code><br>
+ * <code>int data = ((int)packet_base[packet]) &amp; 0xff</code><br>
  * <br>
- * <code>void ogg_packet_clear(Jogg_packet op)</code> -> <code>Jogg_packet op = null</code>
+ * <code>void ogg_packet_clear(Jogg_packet op)</code> -&gt; <code>Jogg_packet op = null</code>
  */
 public final class Jogg_packet {
   public byte[] packet_base;

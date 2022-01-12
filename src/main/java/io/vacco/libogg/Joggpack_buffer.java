@@ -304,7 +304,7 @@ public final class Joggpack_buffer {
     oggpack_readinit(buf, bytes);
   }
 
-  /** Read in bits without advancing the bitptr; bits <= 32 */
+  /** Read in bits without advancing the bitptr; bits &lt;= 32 */
   public final int oggpack_look(int bits) {
     if (bits < 0 || bits > 32) {
       return -1;
@@ -340,7 +340,7 @@ public final class Joggpack_buffer {
     return (m & ret);
   }
 
-  /** Read in bits without advancing the bitptr; bits <= 32 */
+  /** Read in bits without advancing the bitptr; bits &lt;= 32 */
   public final int oggpackB_look(int bits) {
     int ret; // unsigned long
     final int m = 32 - bits;
@@ -425,7 +425,7 @@ public final class Joggpack_buffer {
     oggpack_adv1();
   }
 
-  /** bits <= 32 */
+  /** bits &lt;= 32 */
   public final int oggpack_read(int bits) {
     if (bits < 0 || bits > 32) { // goto err;
       this.ptr = -1;
@@ -475,7 +475,7 @@ public final class Joggpack_buffer {
     return ret;
   }
 
-  /** bits <= 32 */
+  /** bits &lt;= 32 */
   public final int oggpackB_read(int bits) {
     final int m = 32 - bits;
 

@@ -7,9 +7,9 @@ package io.vacco.libogg;
  * <p>Changes from C to Java:
  *
  * <p><code>byte data = header_base[header]</code><br>
- * <code>int data = ((int)header_base[header]) & 0xff</code><br>
+ * <code>int data = ((int)header_base[header]) &amp; 0xff</code><br>
  * <code>byte data = body_base[body]</code><br>
- * <code>int data = ((int)body_base[body]) & 0xff</code>
+ * <code>int data = ((int)body_base[body]) &amp; 0xff</code>
  */
 public final class Jogg_page {
   public byte[] header_base = null;

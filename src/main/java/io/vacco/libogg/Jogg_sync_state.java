@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * From C to Java changes:<br>
- * <code>int ogg_sync_destroy(Jogg_sync_state oy)</code> -> <code>Jogg_sync_state oy = null</code>
+ * <code>int ogg_sync_destroy(Jogg_sync_state oy)</code> -&gt; <code>Jogg_sync_state oy = null</code>
  */
 public final class Jogg_sync_state {
   public byte[] data = null;
