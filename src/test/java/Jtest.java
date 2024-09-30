@@ -65,9 +65,7 @@ public class Jtest {
     }
 
     if (errors != 0) {
-      System.exit(1);
+      throw new IllegalStateException("Failed tests: " + errors);
     }
-
-    System.exit(0);
   }
 }
